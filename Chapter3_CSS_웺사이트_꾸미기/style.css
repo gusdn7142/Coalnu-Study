@@ -1,0 +1,195 @@
+
+.wrap{
+    display: flex;
+    justify-content: center;
+    margin-bottom: 100px;
+}
+
+.container{
+    width: 85%;
+    /* min-width: 1206px; */
+    /* border: 5px solid green; */
+    display: flex;
+    justify-content:space-around;
+}
+
+@media (max-width:1400px) {   
+    .container {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .wrap{
+        margin-bottom: 60px;       
+    }
+
+    h1:nth-of-type(2){            /* 두번쨰 h1 태그 */
+        text-align: center ;
+    }
+    .challenge2{
+        background-color: #eee !important;
+    }
+    h1{
+        color: orange !important;
+    }
+  }
+
+@media (max-width:1000px) {   
+    .box{
+        border: 30px solid #1abc9c !important;
+        width: 435px !important;
+        padding: 30px !important;       
+    }
+    .wrap{
+        margin-bottom: 30px;       
+    }
+    .red{
+        display: none;
+    }
+    .Orange{
+        display: none;
+    } 
+}
+
+
+@media (max-width:600px) {   
+    h1{
+        font-size: 20px !important;
+    }
+    p{
+        font-size: 13px !important;
+    }
+}
+
+
+
+@media (max-width:300px) {   
+    p:nth-of-type(2), p:nth-of-type(4){            /* 두번쨰 h1 태그 */
+        display: none ;
+    }
+    h1{
+        font-size: 15px !important;
+    }
+    p{
+        font-size: 10px !important;
+    }
+    .box{
+        position :absolute;
+        top: 40px;    
+
+        border: 5px solid #1abc9c !important;
+        width: 69% !important;
+        height: 140px;
+        color: transparent;
+        /* padding: 1px !important;       */
+        
+        
+    }
+
+
+
+}
+
+
+
+  /***************************************************************/
+
+
+
+
+
+
+
+.box{
+    border: 50px solid #e74c3c;
+    width: 200px;
+    padding: 50px;
+    /* margin-bottom: 20px; */
+}
+
+
+.green{
+    border-color:#1abc9c;
+    /* display: none; */
+    /* visibility: hidden; */
+}
+
+
+.Orange{
+    border-color:#f1c40f;
+}
+
+
+
+
+
+.challenge2{
+    width: 85%;
+
+    background-color: #fff;
+    background-image:
+    linear-gradient(90deg, transparent 79px, #abced4 79px, #abced4 81px, transparent 81px),
+    linear-gradient(#eee .1em, transparent .1em);
+    background-size: 100% 1.2em;
+
+    padding-left: 10%;
+}
+
+
+
+
+h1{
+    color: #9b59b6;
+}
+
+
+h1:first-child{            /* 첫번쨰 h1 태그 */
+    text-align: center;
+}
+
+
+h1::before{           /* h1 태그 전에*/
+    content: "Topic: ";
+}
+
+
+
+p{
+    font-size: 16px;
+    font-family: Verdana;    
+    font-style: italic;
+}
+
+
+
+.sub-header{
+    color: #2980b9;
+}
+
+p::first-letter {          /* p 태그 첫번째 글씨 */
+    font-size: 200%;
+    color: #2980b9;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
