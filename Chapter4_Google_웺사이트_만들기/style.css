@@ -1,0 +1,256 @@
+body{
+    /* border: 3px solid  black; */
+    margin:0;
+    /* position: relative;  */
+    /* height: 100vh;  브라우저의 전체 높이로 설정 */
+}
+
+
+
+nav{
+    /* border: 1px solid  red; */
+    display: flex;
+    justify-content: right;
+    min-width:650px;
+
+    
+}
+
+nav .container{
+    /* border: 1px solid  green;     */
+    padding: 20px;
+}
+
+
+nav .a-style{
+    margin-right: 20px;
+    text-decoration: none;
+    color: black;
+} 
+
+nav .a-style:hover{
+    color: blue;
+    text-decoration: underline;
+    cursor: pointer;
+}
+
+nav .icon:hover{
+    color: blue;
+    /* cursor: pointer */
+}
+
+
+
+
+
+
+main{
+    /* border: 1px solid  red; */
+    /* margin-top: 300px; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    /* 요소를 수평으로 (-50%) 및 수직으로 (-50%) 이동 */
+    position: fixed;  
+    top: 50%;            
+    left: 50%;          
+    transform: translate(-50%, -50%);
+
+    min-width:650px;
+    width: 100%; 
+}
+
+
+main .container{
+    /* border: 1px solid  green; */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+
+}
+
+
+.container img:first-child{
+    margin-bottom: 20px;
+}
+
+
+
+
+.search-container{
+    margin-bottom: 20px;
+}
+
+
+.search-container .search-icon {
+    color: #9aa0a6; 
+    position: relative;
+    left:6%;
+    font-size: 14px; 
+}
+
+
+.search-container .mic-icon {
+    color: #9aa0a6; 
+    position: relative;
+    right:6%;
+    font-size: 14px; 
+}
+
+
+
+.search-container .input-style{
+    width: 482px;
+    height: 42px;
+    border: 1px solid #dfe1e5;
+    box-shadow: none;
+    border-radius: 24px;
+
+    padding:0 50px 0 50px;
+}
+
+
+
+.search-container .input-style:hover {
+    box-shadow: 0 1px 6px rgba(32, 33, 36, .28);
+    border-color: transparent;
+    
+}
+
+
+.search-container .input-style:focus {
+    outline: none;
+}
+
+
+
+
+
+.button-container{
+    margin-bottom: 20px;
+}
+
+.button-container .button-style{
+    background-color: #f8f9fa;
+    border: 1px solid #f8f9fa;
+    border-radius: 4px;
+    color: #3c4043;
+    font-family: Apple SD Gothic Neo, arial, sans-serif;
+    font-size: 14px;
+    padding: 0 16px;
+
+    height: 36px;
+    text-align: center;
+    cursor: pointer;
+    margin: 6px 4px;
+}
+
+
+.button-container .button-style:hover{
+    box-shadow: 0 1px 1px rgba(0, 0, 0, .1);
+    background-color: #f8f9fa;
+    border: 1px solid #dadce0;
+    color: #202124;
+
+}
+
+
+
+
+.language-container{
+    margin-bottom: 20px;
+}
+
+.language-container .a-style {
+    margin-right: 5px;
+    /* color: blue; */
+    text-decoration: none; 
+} 
+
+.language-container .a-style:hover{
+    color: blue;
+    text-decoration:underline;
+}
+
+
+
+
+
+
+
+footer {
+    position: fixed;   /* absolute; */
+    bottom : 0;
+
+    background: #f2f2f2;
+    width: 100%;
+    
+    min-width:650px;
+
+
+}
+
+
+footer .first-container{
+    padding: 15px 30px;
+    border-bottom: 1px solid #dadce0;
+    font-size: 15px;
+    color: #202124;
+    /* display: flex; */
+    /* justify-content: right; */
+}
+
+
+footer .second-container{
+    padding: 15px 15px;
+
+    display: flex;
+    justify-content: space-between;
+}
+
+
+
+.second-container a {
+    color: #202124;
+    text-decoration: none;
+
+    padding: 0 15px;
+}
+
+
+.second-container a:hover {
+    text-decoration: underline;
+}
+
+
+
+
+
+/* @media (max-width: 650px) {   
+    main{
+
+    }
+} */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
