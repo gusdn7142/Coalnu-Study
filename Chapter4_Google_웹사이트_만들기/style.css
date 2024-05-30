@@ -18,7 +18,7 @@ nav{
     /* border: 1px solid  red; */
     display: flex;
     justify-content: right;
-    min-width:650px;    
+    min-width:675px;    
 }
 
 nav .container{
@@ -51,7 +51,7 @@ nav .icon:hover{
 main{
     /* border: 1px solid  red; */
     width: 100%; 
-    min-width:650px;
+    min-width:675px;
 
     /* 중앙 정렬방법1 */
     /* margin-top: 300px; */
@@ -172,7 +172,7 @@ footer {
     background: #f2f2f2;
     width: 100%;
     
-    min-width:650px;
+    min-width:675px;
 }
 
 footer .first-container{
@@ -207,7 +207,6 @@ footer .second-container{
         justify-content: space-around;
     }
 }
-
 
 
 
