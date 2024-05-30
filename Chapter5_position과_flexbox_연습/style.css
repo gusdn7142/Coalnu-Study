@@ -1,0 +1,206 @@
+
+
+
+
+
+.problem1{
+    border: 1px solid black;
+    height: 400px;
+} 
+
+.problem1 .wrap{
+    display: flex;
+    justify-content: space-between;
+}
+
+.problem1 .right-div{
+    display: flex;
+}
+
+.problem1 .mr5{
+    margin-right: 5px;
+}
+
+
+.problem1 .box {
+    width: 100px;
+    height: 100px;
+    background-color: purple;
+    color: white;
+  }
+
+
+
+
+
+
+.problem2{
+    border: 1px solid black;
+    height: 400px;
+} 
+
+
+.problem2 .parrentbox2{
+    display: flex;
+    justify-content: center;
+}
+
+
+.problem2 .parrentbox3{
+    display: flex;
+    justify-content: right;
+}
+
+
+.problem2 .box {
+    width: 100px;
+    height: 100px;
+    background-color: purple;
+    color: white;
+}
+
+
+
+
+
+
+
+
+.problem3{
+    border: 1px solid black;
+    height: 400px;
+} 
+
+.problem3 .wrap{
+    display: flex;
+    justify-content: center;
+    /* position: relative; */
+}
+
+
+.problem3 .parrentbox{
+    width: 300px;
+    height: 300px;
+    background-color: orange;
+    color: white;
+
+    position: relative;
+    top:30px;
+
+    /* display: flex; */
+    /* justify-content: center; */
+    /* align-items: center; */
+}
+
+.problem3 .box{
+    width: 150px;
+    height: 150px;
+    background-color: purple;
+    color: white;
+
+    position: absolute;
+    top:25%;
+    left: 25%;   /* 주의!!! */
+
+}
+
+
+
+
+
+
+.problem4{
+    border: 1px solid black;
+    height: 400px;
+}
+
+
+
+.problem4 .box1 {
+    width: 100px;
+    height: 100px;
+    background-color: purple;
+    color: white;
+}
+
+
+
+.problem4 .box2{
+    width: 100px;
+    height: 100px;
+    background-color: orange;
+    color: white;
+
+
+    position: absolute;
+    top:50px;
+    left:50px;  
+}
+
+
+
+
+.problem5{
+    border: 1px solid black;
+    height: 400px;
+}
+
+
+
+.problem5 .wrap{
+    width:100%;
+    height: 100%;
+    /* display: flex; */
+    /* justify-content: right; */
+    /* align-items: flex-end;  */
+    position: relative;
+    border: 5px solid red;;
+}
+
+
+
+.problem5 .box1 {
+    width: 600px;
+    height: 250px;
+
+    background-color: gray;
+    color: white;
+
+    /* position: relative; */
+
+    position:absolute;
+    right: 0;
+    bottom: 0;
+
+}
+
+
+
+.problem5 .box2 {
+    width: 150px;
+    height: 150px;
+
+    background-color: orange;
+    color: white;
+
+    position:absolute;
+    bottom: 0;
+    left: 0;
+}
+
+
+
+.problem5 .box3 {
+    width: 150px;
+    height: 150px;
+
+    background-color: orange;
+    color: white;
+
+    position:absolute;
+    top: 0;
+    right: 0;
+}
+
+
+

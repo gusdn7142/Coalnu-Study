@@ -1,28 +1,30 @@
+/*
+ * body style
+ */
 body{
-    /* border: 3px solid  black; */
     margin:0;
+    box-sizing: border-box;
+    font-size: 14px;
+    font-family: arial,sans-serif;
+    /* border: 3px solid  black; */
     /* position: relative;  */
     /* height: 100vh;  브라우저의 전체 높이로 설정 */
-    font-family: arial,sans-serif;
-    
 }
 
-
-
+/*
+ * navbar style
+ */
 nav{
     /* border: 1px solid  red; */
     display: flex;
     justify-content: right;
-    min-width:650px;
-
-    
+    min-width:650px;    
 }
 
 nav .container{
     /* border: 1px solid  green;     */
     padding: 20px;
 }
-
 
 nav .a-style{
     margin-right: 20px;
@@ -43,48 +45,44 @@ nav .icon:hover{
 
 
 
-
-
-
+/*
+ * main style
+ */
 main{
     /* border: 1px solid  red; */
+    width: 100%; 
+    min-width:650px;
+
+    /* 중앙 정렬방법1 */
     /* margin-top: 300px; */
+
+    /* 중앙 정렬방법2 */
+    /* position: fixed;   요소를 수평으로 (-50%) 및 수직으로 (-50%) 이동 
+    top: 50%;            
+    left: 50%;          
+    transform: translate(-50%, -50%);    */
+
+    /* 중앙 정렬방법3 */
+    height: 749px;
     display: flex;
     justify-content: center;
     align-items: center;
-
-    /* 요소를 수평으로 (-50%) 및 수직으로 (-50%) 이동 */
-    position: fixed;  
-    top: 50%;            
-    left: 50%;          
-    transform: translate(-50%, -50%);
-
-    min-width:650px;
-    width: 100%; 
 }
-
 
 main .container{
     /* border: 1px solid  green; */
     display: flex;
     flex-direction: column;
     align-items: center;
-
-
 }
-
 
 .container img:first-child{
     margin-bottom: 20px;
 }
 
-
-
-
 .search-container{
     margin-bottom: 20px;
 }
-
 
 .search-container .search-icon {
     color: #9aa0a6; 
@@ -93,15 +91,12 @@ main .container{
     font-size: 14px; 
 }
 
-
 .search-container .mic-icon {
     color: #9aa0a6; 
     position: relative;
     right:6%;
     font-size: 14px; 
 }
-
-
 
 .search-container .input-style{
     width: 482px;
@@ -113,21 +108,14 @@ main .container{
     padding:0 50px 0 50px;
 }
 
-
-
 .search-container .input-style:hover {
     box-shadow: 0 1px 6px rgba(32, 33, 36, .28);
-    border-color: transparent;
-    
+    border-color: transparent;    
 }
-
 
 .search-container .input-style:focus {
     outline: none;
 }
-
-
-
 
 
 .button-container{
@@ -149,7 +137,6 @@ main .container{
     margin: 6px 4px;
 }
 
-
 .button-container .button-style:hover{
     box-shadow: 0 1px 1px rgba(0, 0, 0, .1);
     background-color: #f8f9fa;
@@ -157,9 +144,6 @@ main .container{
     color: #202124;
 
 }
-
-
-
 
 .language-container{
     margin-bottom: 20px;
@@ -179,21 +163,17 @@ main .container{
 
 
 
-
-
-
+/*
+ * footer style
+ */
 footer {
     position: fixed;   /* absolute; */
     bottom : 0;
-
     background: #f2f2f2;
     width: 100%;
     
     min-width:650px;
-
-
 }
-
 
 footer .first-container{
     padding: 15px 30px;
@@ -204,15 +184,12 @@ footer .first-container{
     /* justify-content: right; */
 }
 
-
 footer .second-container{
     padding: 15px 15px;
 
     display: flex;
     justify-content: space-between;
 }
-
-
 
 .second-container a {
     color: #202124;
@@ -221,20 +198,15 @@ footer .second-container{
     padding: 0 15px;
 }
 
-
 .second-container a:hover {
     text-decoration: underline;
 }
 
-
-
-
-
-/* @media (max-width: 650px) {   
-    main{
-
+@media (max-width: 1200px) {   
+    footer .second-container{
+        justify-content: space-around;
     }
-} */
+}
 
 
 
