@@ -1,0 +1,129 @@
+
+/*
+ * body style
+ */
+ body{
+    margin:0;
+    box-sizing: border-box;
+    font-family: spotify-circular, Helvetica, Arial, sans-serif;
+    /* color: white; */
+}
+
+
+
+nav{
+    height: 80px;
+    background-color: black;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+
+nav .left-container img{
+    width: 132px;
+}
+
+
+nav .right-container .a-style{
+    color: white;
+    text-decoration: none;
+
+    padding: 28px 17px;
+    font-weight: 700;
+}
+
+
+
+
+
+main{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    height:968px;
+    border: 1px solid black;
+
+
+    background-color: rgb(41, 65, 171);
+    background-image: url(https://www-growth.scdn.co/static/home/bursts.svg);
+    background-size: 175%;
+    background-position: 46% 4%;
+}
+
+
+
+
+main .container{
+    border: 1px solid red;
+    color: #1ed760;
+}
+
+
+main .first-container{
+    font-size: 146px;
+    font-weight: 900;
+
+    line-height: 166px; /*  !!!! */
+    position: relative;
+    left: 225px;
+    padding-bottom: 40px
+}
+
+
+main .first-container .first-line{
+    position: relative;
+    left: -2.5em;
+}
+
+main .second-container{
+    text-align: center;
+    color: #1ed760;
+    font-size: 18px;
+    line-height: 24px;      /* !!! */
+    padding-bottom: 40px;
+}
+
+main .third-container{
+    text-align: center;
+}
+
+main .third-container button{
+    padding: 14px 32px;
+    background-color: #1ed760;
+    border-radius: 500px;
+    font-size: inherit;
+    color: #2941ab;
+    font-weight: 700;
+    border: none;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
