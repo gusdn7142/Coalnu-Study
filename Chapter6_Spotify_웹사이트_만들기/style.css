@@ -202,11 +202,6 @@ footer .first-container .right-box .icon-box .icon-style{
 }
 
 
-
-
-
-
-
 footer .second-container{
     /* border:3px solid orange; */
     color: #919496;    /*  */
@@ -215,8 +210,6 @@ footer .second-container{
     font-size: 12px;
     
 }
-
-
 
 footer .third-container{
     /* border:3px solid orange; */
@@ -231,7 +224,9 @@ footer .third-container{
 
 
 
-
+/*
+* media query
+*/
 @media (max-width: 1200px) {   
     main .first-container{
         left:0;
