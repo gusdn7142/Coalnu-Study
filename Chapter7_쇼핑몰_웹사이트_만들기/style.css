@@ -1,0 +1,121 @@
+/* body{
+    margin:0;
+    box-sizing: border-box;
+} */
+
+
+/*
+* navbar style
+*/
+.navbar{
+    /* padding-top: .5rem; */
+    /* padding-bottom: .5rem; */
+    padding-left:2rem;
+    padding-right:2rem;
+
+}
+
+
+.btn-outline-success {
+    color: chocolate;
+    border-color: chocolate;
+}
+
+
+
+.btn-outline-success:hover {
+    background-color: chocolate;
+    color: white;
+    border-color: chocolate;
+}
+
+
+
+/*
+* main style
+*/
+.btn-dark:active, .btn-dark:focus{
+    box-shadow: 0 0 0 .25rem rgba(66, 70, 73, .5);
+}
+
+
+.card:hover {
+    transform: scale(1.05);
+    transition: 0.5s ease-in-out;
+}
+
+
+
+/*
+* footer style
+*/
+
+footer{
+    background-color: black;
+    font-size: 14px;
+}
+
+
+footer .first-line{
+    color:white;
+    border-bottom: 1px solid #392d23;
+}
+
+
+footer .second-line .col a{
+    color:white;
+    text-decoration: none;
+}
+
+
+footer .third-line {
+    color:white;
+    display: none;
+}
+
+
+
+
+/*
+* mdeia query
+*/
+@media screen and (max-width:48rem) {     /* 미디어 쿼리 */
+    footer .first-line {
+      text-align: center;
+    }
+
+    footer .second-line {
+      /* padding-left: 2rem; */
+      /* padding-right: 2rem; */
+      border-bottom: 1px solid #392d23;
+    }
+  
+    footer .third-line {
+      display: block;
+    }
+
+    footer .flag {
+        display: none;
+      }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
