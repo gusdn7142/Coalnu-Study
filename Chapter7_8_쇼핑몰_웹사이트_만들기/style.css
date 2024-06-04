@@ -96,7 +96,12 @@ footer .third-line {
 
     footer .flag {
         display: none;
-      }
+    }
+
+    main H1{
+        font-size : 20px;
+    }
+
 }
 
 
